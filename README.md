@@ -1,11 +1,63 @@
+# FleetOPS Platform
 
-## Run Locally
+> Real-time fleet operations dashboard with AI-assisted decision support, live vehicle tracking, and operational logging.
 
-**Prerequisites:**  Node.js
+Built with **React 19**, **TypeScript**, **Vite**, and **Gemini AI** — runs entirely in the browser with no backend required.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+- **Fleet Grid** — live vehicle card view with status, fuel level, location, and driver assignment
+- **Map View** — real-time vehicle positions on an interactive map
+- **Vehicle Detail** — per-vehicle telemetry, maintenance history, and quick actions
+- **Operations Log** — timestamped event stream for dispatching, alerts, and status changes
+- **AI Chat** — Gemini-powered assistant for fleet queries, route suggestions, and anomaly analysis
+- **Command Palette** — `⌘K` global command launcher for fast navigation
+
+---
+
+## Tech Stack
+
+- **React 19** · TypeScript · Vite
+- **Tailwind CSS** — dark-first GitHub-inspired design
+- **Gemini AI** (`@google/generative-ai`) — embedded AI chat assistant
+- No backend — all state is local, deployable as a static site
+
+---
+
+## Getting Started
+
+```bash
+git clone https://github.com/kostasuser01gr/FleetOPS-Platform
+cd FleetOPS-Platform
+npm install
+```
+
+Create `.env.local`:
+```env
+VITE_GEMINI_API_KEY=your_gemini_api_key
+```
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173)
+
+---
+
+## Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+The output is a static bundle — deployable to Vercel, Netlify, Cloudflare Pages, or any static host.
+
+---
+
+## License
+
+MIT

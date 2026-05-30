@@ -1,5 +1,10 @@
 # FleetOPS Platform
 
+[![CI](https://github.com/kostasuser01gr/FleetOPS-Platform/actions/workflows/ci.yml/badge.svg)](https://github.com/kostasuser01gr/FleetOPS-Platform/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-19-61DAFB)](https://react.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org)
+
 > Real-time fleet operations dashboard with AI-assisted decision support, live vehicle tracking, and operational logging.
 
 Built with **React 19**, **TypeScript**, **Vite**, and **Gemini AI** — runs entirely in the browser with no backend required.

@@ -1,5 +1,5 @@
 {
-  "name": "internal tool kit",
-  "description": "",
+  "name": "FleetOPS Platform",
+  "description": "Real-time fleet operations dashboard with AI-assisted decision support.",
   "requestFramePermissions": []
 }

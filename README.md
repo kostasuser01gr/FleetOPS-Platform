@@ -68,3 +68,21 @@ The output is a static bundle — deployable to Vercel, Netlify, Cloudflare Page
 ## License
 
 MIT
+
+---
+
+## Author
+
+**Konstantinos Foskolakis**
+Full-stack engineer — Heraklion, Crete, Greece
+[github.com/kostasuser01gr)
+
+**Live Demo:** [fleetops-platform-hf122xsjj-kostasuser01gr.vercel.app](https://fleetops-platform-hf122xsjj-kostasuser01gr.vercel.app)
+
+---
+
+## Portfolio Positioning
+
+This project demonstrates real-time fleet dashboard design with AI decision support embedded directly in the operational context. The zero-backend architecture is a deliberate choice: all state is local and the entire platform deploys as a static bundle, eliminating infrastructure cost and making the public demo fully accessible without credentials or backend setup. The Gemini AI integration is scoped to fleet-relevant queries — route suggestions, anomaly analysis, status interpretation — rather than a generic chatbot. The command palette, live vehicle grid, and operational log reflect the UX patterns that operational teams need for fast situational awareness.
+
+*Built as a portfolio-grade real-time fleet operations dashboard. Estimated implementation effort for the current public version: 3–5 focused development days.*
